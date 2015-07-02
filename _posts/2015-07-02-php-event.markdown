@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "PHP event"
+date:   2015-07-02 20:06:53
+categories: jekyll update
+---
+
+[What's the difference between libev and libevent? - Stack Overflow](http://stackoverflow.com/questions/9433864/whats-the-difference-between-libev-and-libevent)
+
+ev
+--
+
+Provides interface to libev library
+
+0.2.15 stable 2015-05-03
+
+[PHP: Ev - Manual](http://php.net/manual/en/book.ev.php)
+
+[PECL :: Package :: ev](https://pecl.php.net/package/ev)
+
+event
+-----
+
+Provides interface to libevent library
+
+1.11.1 stable 2014-11-13
+
+[PHP: Event - Manual](http://php.net/event)
+
+[PECL :: Package :: event](https://pecl.php.net/package/event)
+
+libevent
+--------
+
+Libevent - event notification
+
+0.1.0 beta 2013-05-22
+
+[PHP: Libevent - Manual](http://php.net/manual/en/book.libevent.php)
+
+[PECL :: Package :: libevent](https://pecl.php.net/package/libevent)
