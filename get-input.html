@@ -74,6 +74,8 @@
       const input = document.querySelector('input');
       input.value = value;
 
+      document.title = `${value} - My Input`;
+
       const form = document.querySelector('form');
       form.onclick = ({ target: { nodeName, value } }) => {
         if (nodeName === 'BUTTON' && input.value) {
