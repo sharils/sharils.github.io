@@ -8,7 +8,7 @@ categories: jekyll update
 - Block element vs inline element
 - Replaced and non-replaced element
 - Persistent, alternative and preferred stylesheet
-- link, style, @import, @media all support media query
-- Use of @support
-- @support and @media can use `and` and `not`
-- Only @support can use `or`
+- `<link>`, `<style>`, `@import`, `@media` all support media query
+- Use of `@support`
+- `@support` and `@media` can use `and` and `not`
+- Only `@support` can use `or`
