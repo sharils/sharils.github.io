@@ -9,3 +9,4 @@ categories: jekyll update
 - `:link`, `:visited`, `:focus`, `:hover`, `:active`
 - `:visited` has [styling restrictions](https://developer.mozilla.org/en-US/docs/Web/CSS/:visited#Styling_restrictions).
 - `:lang` is more robust than `[lang]`
+- `:indeterminate` can only be set through the DOM API at the writing of the book.
