@@ -1,18 +1,16 @@
 ---
 layout: post
-title:  "mitmproxy - an interactive HTTPS proxy"
+title:  "利用 mitmproxy 監控 Android 應用程式的 HTTP 網路傳輸"
 date:   2018-08-31 23:28:47
 categories: jekyll update
 ---
 
-# 利用 mitmproxy 監控 Android 應用程式的 HTTP 網路傳輸
-
-## 需求
+# 需求
 
 - Docker，請自行參考 Docker 官網安裝 docker
 - 同一個區網，最簡單就是連到同一臺 WIFI
 
-## 啓動 mitmproxy
+# 啓動 mitmproxy
 
 在筆電執行以下指令，-v 是用來儲存 mitmproxy 產生的 SSL 憑證。
 
@@ -26,7 +24,7 @@ docker run --rm -it -v ~/.mitmproxy:/home/mitmproxy/.mitmproxy -p 8080:8080 mitm
 
 這個 IP 就是之後會用到的代理伺服器 IP。
 
-## 設定 Android 代理伺服器
+# 設定 Android 代理伺服器
 
 請參考 https://www.wikihow.com/Change-Proxy-Settings#Android_sub 設定 Android 代理伺服器。
 
@@ -34,7 +32,7 @@ docker run --rm -it -v ~/.mitmproxy:/home/mitmproxy/.mitmproxy -p 8080:8080 mitm
 
 設定完代理伺服器後請重開 Android 無線網路連線。
 
-## 加入 mitmproxy 的 SSL 憑證到 Android
+# 加入 mitmproxy 的 SSL 憑證到 Android
 
 用瀏覽器打開 mitm.it，此時應看到如下畫面 https://web.archive.org/web/20180831150259/https://blog.youapp.co/images/mitmproxy/mitmproxy_website.jpg
 
@@ -47,7 +45,7 @@ docker run --rm -it -v ~/.mitmproxy:/home/mitmproxy/.mitmproxy -p 8080:8080 mitm
 1. 設定 Android 代理伺服器的步驟做錯了
 2. 有其他 Android 應用程式干涉網路設定，例如 DNS66，此時關掉相關的 app 就好。
 
-## 監控 Android 應用程式的 HTTP 傳輸
+# 監控 Android 應用程式的 HTTP 傳輸
 
 此時回到 mitmproxy 監控畫面，再打開任何想監控的 Android app，即可看到網路傳輸。
 
