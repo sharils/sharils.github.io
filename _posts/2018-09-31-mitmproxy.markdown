@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "mitmproxy - an interactive HTTPS proxy"
-date:   2018-08-22 08:30:47
+date:   2018-08-31 23:28:47
 categories: jekyll update
 ---
 
