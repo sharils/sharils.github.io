@@ -20,13 +20,13 @@ docker run --rm -it -v ~/.mitmproxy:/home/mitmproxy/.mitmproxy -p 8080:8080 mitm
 
 執行完 mitmproxy 即啓動監控畫面，在監控畫面中按下 q 再按 y 即可離開並關閉程式。
 
-此時請參考 https://www.wikihow.com/Find-out-Your-IP-Address 找出筆電在區網的 IP。
+此時請參考 <https://www.wikihow.com/Find-out-Your-IP-Address> 找出筆電在區網的 IP。
 
 這個 IP 就是之後會用到的代理伺服器 IP。
 
 # 設定 Android 代理伺服器
 
-請參考 https://www.wikihow.com/Change-Proxy-Settings#Android_sub 設定 Android 代理伺服器。
+請參考 <https://www.wikihow.com/Change-Proxy-Settings#Android_sub> 設定 Android 代理伺服器。
 
 設定代理伺服器時，IP 填前一個步驟找出來的區網 IP，port 請填 8080。
 
@@ -34,7 +34,7 @@ docker run --rm -it -v ~/.mitmproxy:/home/mitmproxy/.mitmproxy -p 8080:8080 mitm
 
 # 加入 mitmproxy 的 SSL 憑證到 Android
 
-用瀏覽器打開 mitm.it，此時應看到如下畫面 https://web.archive.org/web/20180831150259/https://blog.youapp.co/images/mitmproxy/mitmproxy_website.jpg
+用瀏覽器打開 mitm.it，此時應看到如下畫面 <https://web.archive.org/web/20180831150259/https://blog.youapp.co/images/mitmproxy/mitmproxy_website.jpg>
 
 此時請按下 Android 圖示安裝 mitmproxy 產生的 SSL 憑證。
 
