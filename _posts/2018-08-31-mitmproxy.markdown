@@ -52,3 +52,11 @@ docker run --rm -it -v ~/.mitmproxy:/home/mitmproxy/.mitmproxy -p 8080:8080 mitm
 按 j / k 移動指標，enter 查看傳輸內容，tab 切換傳輸內容分頁，q 回到傳輸列表。
 
 在傳輸列表按 e1 可另存成 curl，此時請輸入路徑 ~/.mitmproxy/<檔名>.sh 即可存檔。
+
+# mitmdump 模式
+
+在筆電執行以下指令，可看到包含 websocket 與試圖建立 SSL 連線的傳輸。
+
+```sh
+docker run --rm -it -v ~/.mitmproxy:/home/mitmproxy/.mitmproxy -p 8080:8080 mitmproxy/mitmproxy mitmdump -p 8080
+```
