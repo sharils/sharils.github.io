@@ -58,5 +58,5 @@ docker run --rm -it -v ~/.mitmproxy:/home/mitmproxy/.mitmproxy -p 8080:8080 mitm
 在筆電執行以下指令，可看到包含 websocket 與試圖建立 SSL 連線的傳輸。
 
 ```sh
-docker run --rm -it -v ~/.mitmproxy:/home/mitmproxy/.mitmproxy -p 8080:8080 mitmproxy/mitmproxy mitmdump -p 8080
+docker run --rm -it -v ~/.mitmproxy:/home/mitmproxy/.mitmproxy -p 8080:8080 mitmproxy/mitmproxy mitmdump
 ```
