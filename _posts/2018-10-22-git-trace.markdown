@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "GIT_TRACE=true"
+date:   2018-10-19 20:52:27
+categories: jekyll update
+---
+
+`GIT_TRACE` controls general traces, which don’t fit into any specific category. This includes the expansion of aliases, and delegation to other sub-programs.
+
+[Source][1]
+
+[1]: https://web.archive.org/web/20180915082510/https://git-scm.com/book/en/v2/Git-Internals-Environment-Variables
