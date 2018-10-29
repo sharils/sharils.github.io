@@ -12,4 +12,4 @@ categories: jekyll update
 Ensure that we won't have to redo (including redownloading the cask) just
 because we don't have access.
 
-[1]: https://github.com/Homebrew/homebrew-cask/blob/master/CONTRIBUTING.md
+[1]: https://github.com/Homebrew/homebrew-cask/blob/master/CONTRIBUTING.md#updating-a-cask
