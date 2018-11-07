@@ -5,6 +5,8 @@ date:   2018-11-07 08:55:38
 categories: jekyll update
 ---
 
+# [A personal review of automated testing tools in the JavaScript world](https://web.archive.org/web/20181102213928/https://itnext.io/a-personal-review-of-automated-testing-tools-in-the-javascript-world-3c504fe6e05d?gi=c529b011bae9)
+
 ## PART 1 — AUTOMATED TESTS OF GRAPHICAL USER INTERFACE (GUI)
 
 - [Selenium Webdriver][1]
