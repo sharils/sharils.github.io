@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Selenium IDE and Selenium SIDE Runner"
-date:   2018-10-11 10:27:03
+date:   2018-11-08 20:02:14
 categories: jekyll update
 ---
 
