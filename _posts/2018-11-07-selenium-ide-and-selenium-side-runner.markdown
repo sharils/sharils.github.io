@@ -17,15 +17,13 @@ You can also install the Chrome version in Opera.
 
 Follow [the official installation guide][2] to install it.
 
-In the same folder where `*.side` tests is saved to, `yarn add selenium-webdriver`.
-
-If you want to run `*.side` tests in Mozilla Firefox, `brew cask info chromedriver`.
+In the same folder where `*.side` tests are saved to, `yarn add selenium-webdriver`.
 
 ### Run `*.side` tests in Google Chrome
 
 `brew cask info chromedriver` since we want to run `*.side` tests in Google Chrome.
 
-In the same folder where `*.side` tests is saved to:
+In the same folder where `*.side` tests are saved to:
 
 ```sh
 selenium-side-runner *.side
@@ -59,7 +57,7 @@ capabilities:
 
 `brew install geckodriver` since we want to run `*.side` tests in Mozilla Firefox.
 
-In the same folder where `*.side` tests is saved to:
+In the same folder where `*.side` tests are saved to:
 
 ```sh
 selenium-side-runner --capabilities 'browserName=firefox platform=MAC' *.side
@@ -83,7 +81,7 @@ fi
 
 `brew cask install operadriver` since we want to run `*.side` tests in Opera.
 
-In the same folder where `*.side` tests is saved to:
+In the same folder where `*.side` tests are saved to:
 
 ```sh
 selenium-side-runner --capabilities 'browserName=opera platform=MAC' *.side
