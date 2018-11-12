@@ -9,29 +9,29 @@ categories: jekyll update
 
 - [Displaying Lint Output in the Editor][2]
 - [Getting Started with Storybook][3]
-- [Analyzing the Bundle Size · Create React App][4]
-- [Using HTTPS in Development · Create React App][5]
-- [Adding a CSS Modules Stylesheet · Create React App][6]
+- [Analyzing the Bundle Size][4]
+- [Using HTTPS in Development][5]
+- [Adding a CSS Modules Stylesheet][6]
 - [CSS Grid Layout prefixing is disabled by default, but it will not strip manual prefixing. If you'd like to opt-in to CSS Grid prefixing, first familiarize yourself about its limitations.][7]
 - [`<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">`][8]
 - [`import('./moduleA') .then(({ moduleA }) => { // Use moduleA })`][9]
-- [Adding Bootstrap · Create React App][10]
-- [Adding Relay · Create React App][11]
-- [Note: You must create custom environment variables beginning with REACT_APP_][12]
+- [Adding Bootstrap][10]
+- [Adding Relay][11]
+- [Note: You must create custom environment variables beginning with REACT_APP][12]
 - [Referencing Environment Variables in the HTML][13]
-- [Adding Custom Environment Variables · Create React App][14]
+- [Adding Custom Environment Variables][14]
 - [As the comment states, switching serviceWorker.unregister() to serviceWorker.register() will opt you in to using the service worker.][15]
 - [We recommend to put the test files (or __tests__ folders) next to the code they are testing so that relative imports appear shorter.][16]
 - [If your app uses a browser API that you need to mock in your tests or if you just need a global setup before running your tests, add a src/setupTests.js to your project.][17]
-- [Debugging Tests · Create React App][18]
-- [Proxying API Requests in Development · Create React App][19]
+- [Debugging Tests][18]
+- [Proxying API Requests in Development][19]
 - [Generating Dynamic <meta> Tags on the Server][20]
 - [Injecting Data from the Server into the Page][21]
 - [.env.staging][22], REACT_APP_API_URL, env-cmd
 - [Firebase][23], [GitHub Pages][24], [Heroku][25], [Netlify][26], Now, S3, Surge
 - If you're ready to extract a component from your project so other people can use it, we recommend moving it to a separate directory outside of your project and then using a tool like nwb to prepare it for publishing.
-- [Pre-Rendering into Static HTML Files · Create React App][27]
-- [Advanced Configuration · Create React App][28]: BROWSER, HOST, PORT, HTTPS, PUBLIC_URL, CI, REACT_EDITOR, CHOKIDAR_USEPOLLING, GENERATE_SOURCEMAP, NODE_PATH, INLINE_RUNTIME_CHUNK
+- [Pre-Rendering into Static HTML Files][27]
+- [Advanced Configuration][28]: BROWSER, HOST, PORT, HTTPS, PUBLIC_URL, CI, REACT_EDITOR, CHOKIDAR_USEPOLLING, GENERATE_SOURCEMAP, NODE_PATH, INLINE_RUNTIME_CHUNK
 - [instead of ejecting we recommend to fork react-scripts][29]
 
 [1]: https://facebook.github.io/create-react-app/docs/getting-started
