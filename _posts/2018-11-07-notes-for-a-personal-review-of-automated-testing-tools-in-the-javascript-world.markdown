@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A personal review of automated testing tools in the JavaScript world"
+title:  "Note for A personal review of automated testing tools in the JavaScript world"
 date:   2018-11-07 08:55:38
 categories: jekyll update
 ---
