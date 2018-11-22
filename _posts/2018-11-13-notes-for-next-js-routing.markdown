@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Notes for Next.js Routing"
-date:   2018-11-10 10:57:10
+date:   2018-11-13 10:57:10
 categories: jekyll update
 ---
 
