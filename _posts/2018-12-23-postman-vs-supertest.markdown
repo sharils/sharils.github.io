@@ -9,9 +9,13 @@ TL;DR
 
 I decided to use Postman + Newman whenever I think of SuperTest.
 
-[Postman] and [SuperTest] are both tools for integration tests at the HTTP API
-level. And with [Newman], we can turn run Postman tests from CLI. This makes
+[Postman][1] and [SuperTest][2] are both tools for integration tests at the HTTP API
+level. And with [Newman][3], we can turn run Postman tests from CLI. This makes
 them close matches.
+
+[1]: https://www.getpostman.com/ "Postman | API Development Environment"
+[2]: https://github.com/visionmedia/supertest "visionmedia/supertest: Super-agent driven library for testing node.js HTTP servers using a fluent API"
+[3]: https://github.com/postmanlabs/newman "postmanlabs/newman: Newman is a command-line collection runner for Postman"
 
 ## Benefits
 
@@ -71,11 +75,11 @@ You can still do TDD with Postman, but it becomes weird because you no longer
 
 ### SSL CA Support
 
-Postman doesn't allow one to add a trusted CA yet. And there is an [open issue]
-for that. This is a blocker for testing new HTML5 features on localhost that
-requires SSL connection on the server side. E.g. U2F support.
+Postman doesn't allow one to add a trusted CA yet. And there is an [open
+issue][4] for that. This is a blocker for testing new HTML5 features on
+localhost that requires SSL connection on the server side. E.g. U2F support.
 
-https://github.com/postmanlabs/postman-app-support/issues/3152
+[4]: https://github.com/postmanlabs/postman-app-support/issues/3152 "[Feature Request] Add Root and Intermediary CA · Issue #3152 · postmanlabs/postman-app-support"
 
 ### Swagger Support
 
