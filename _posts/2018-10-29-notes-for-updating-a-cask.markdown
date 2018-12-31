@@ -47,20 +47,6 @@ cd /tmp/homebrew-cask && \
 hub pr list | grep polar-bookshelf
 ```
 
-## Input password for PGP key (optional)
-
-We do this upfront so that we won't have to redo (including redownloading the
-task) just becasue we put in the wrong PGP key password.
-
-```sh
-mkdir -p /tmp/cask-repair && \
-cd /tmp/cask-repair && \
-git init && \
-git commit --allow-empty --message 'Initialize empty Git repository' && \
-cd - && \
-rm -fr /tmp/cask-repair
-```
-
 ## Update a cask
 
 ```sh
@@ -76,7 +62,7 @@ Notify us when it's done.
 
 Skip version prompt.
 
-## Update polar-bookshelf
+### Example to update polar-bookshelf
 
 ```sh
 git clone https://github.com/Homebrew/homebrew-cask.git /tmp/homebrew-cask && \
@@ -85,13 +71,27 @@ hub pr list | grep polar-bookshelf && \
 noti cask-repair polar-bookshelf -v 1.0.11
 ```
 
-## Update origin
+### Example to update origin
 
 ```sh
 git clone https://github.com/Homebrew/homebrew-cask.git /tmp/homebrew-cask && \
 cd /tmp/homebrew-cask && \
 hub pr list | grep origin && \
 noti cask-repair origin
+```
+
+## Input password for PGP key (optional)
+
+We do this upfront so that we won't have to redo (including redownloading the
+task) just becasue we put in the wrong PGP key password.
+
+```sh
+mkdir -p /tmp/cask-repair && \
+cd /tmp/cask-repair && \
+git init && \
+git commit --allow-empty --message 'Initialize empty Git repository' && \
+cd - && \
+rm -fr /tmp/cask-repair
 ```
 
 [1]: https://github.com/Homebrew/homebrew-cask/blob/master/CONTRIBUTING.md#updating-a-cask "homebrew-cask/CONTRIBUTING.md at master · Homebrew/homebrew-cask · GitHub"
