@@ -64,6 +64,11 @@ how easy it is for one playaround with it.
 
 Of course there are drawbacks:
 
+### Code Reuse
+
+There is not easy way to reuse a request, you can only duplicate. Then you have
+maintenance issue.
+
 ### SCM Diff
 
 Git diff between Postman collection is harder to understand than supertest.
