@@ -17,13 +17,13 @@ Check from Github website. Replace `%s` with the cask name.
 open 'https://github.com/Homebrew/homebrew-cask/search?type=Issues&q=%s'
 ```
 
-For example to check if there is a PR for the latest polar-bookshelf:
+For example to check if there is a [PR for the latest polar-bookshelf][2]:
 
 ```
 open 'https://github.com/Homebrew/homebrew-cask/search?type=Issues&q=polar-bookshelf'
 ```
 
-Another example to check if there is a PR for the latest origin:
+Another example to check if there is a [PR for the latest origin][3]:
 
 ```
 open 'https://github.com/Homebrew/homebrew-cask/search?type=Issues&q=origin'
@@ -94,4 +94,6 @@ hub pr list | grep origin && \
 noti cask-repair origin
 ```
 
-[1]: https://github.com/Homebrew/homebrew-cask/blob/master/CONTRIBUTING.md#updating-a-cask
+[1]: https://github.com/Homebrew/homebrew-cask/blob/master/CONTRIBUTING.md#updating-a-cask "homebrew-cask/CONTRIBUTING.md at master · Homebrew/homebrew-cask · GitHub"
+[2]: https://github.com/Homebrew/homebrew-cask/search?type=Issues&q=polar-bookshelf "Search · polar-bookshelf"
+[3]: https://github.com/Homebrew/homebrew-cask/search?type=Issues&q=origin "Search · origin"
