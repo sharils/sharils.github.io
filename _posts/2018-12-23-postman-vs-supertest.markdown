@@ -94,6 +94,15 @@ find that the body of the `PUT /pet` command is showing the description from
 the same method of on Swagger. `PUT` is not the only method that is broken,
 it's every method with body that's broken.
 
+### Enable/Disable Tests
+
+It's impossible to enable or disable a test now.
+
+### Blacklist/Whitelist Tests
+
+It's impossible tag tests and include/exclude tests based on the tags. E.g.
+tests that integrates with the real 3rd party API instead of mocks.
+
 ## Bonus
 
 One might be wondering the difference between Postman and Insomnia. My answer
